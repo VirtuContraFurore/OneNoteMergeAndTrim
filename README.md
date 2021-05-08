@@ -4,7 +4,7 @@ A simple bash script to merge PDF created with one note
 
 This program merges the pages of documents exported to PDF from OneNote
 
-![Alt text](http://github.com/VirtuContraFurore/OneNoteMergeAndTrim/blob/master/example.png?raw=true)7
+![Alt text](http://github.com/VirtuContraFurore/OneNoteMergeAndTrim/blob/master/example.png?raw=true)
 
 
 ![solarized vim](https://github.com/altercation/solarized/raw/master/img/solarized-vim.png)
