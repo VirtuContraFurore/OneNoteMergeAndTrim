@@ -22,13 +22,13 @@ Open your PDF with GIMP and use a bit of trial and error. You can set the ruler 
 single file
 
 ```
-oneNoteTrime ./destination_directory my_file.pdf
+oneNoteTrim ./destination_directory my_file.pdf
 ```
 
 or multi-file flavour:
 
 ```
-oneNoteTrime ./destination_directory *.pdf
+oneNoteTrim ./destination_directory *.pdf
 ```
 
 ### How to speed up
