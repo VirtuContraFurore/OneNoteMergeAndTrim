@@ -1,6 +1,6 @@
 ## OneNoteMergeAndTrim
 
-A simple bash script to merge PDF files created with one note
+A simple bash script to merge PDF files created with OneNote
 
 This program merges the pages of documents exported to PDF from OneNote
 
