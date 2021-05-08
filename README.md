@@ -11,7 +11,8 @@ This program merges the pages of documents exported to PDF from OneNote
 imagemagick graphicsmagick cpdf
 
 Note: cpdf must be downloaded from www.coherentpdf.com and manually added to  your $PATH
-You also may need to edit /etc/ImageMagick-X/policy.xml to allow coder for PDFs
+
+You also **may** need to edit /etc/ImageMagick-X/policy.xml to allow coder for PDFs
 
 ### How to set the CROP REFERENCES
 
