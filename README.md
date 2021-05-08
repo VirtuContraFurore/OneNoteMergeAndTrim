@@ -4,6 +4,9 @@ A simple bash script to merge PDF created with one note
 
 This program merges the pages of documents exported to PDF from OneNote
 
+![alt text](https://ibb.co/3CQtQ4p)
+
+
 ### What you need to install
 
 imagemagick graphicsmagick cpdf
