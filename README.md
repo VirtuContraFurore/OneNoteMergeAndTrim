@@ -13,15 +13,17 @@ You also may need to edit /etc/ImageMagick-X/policy.xml to allow coder for PDFs
 
 ### How to set the CROP REFERENCES
 
-Open your PDF with GIMP and use a bit of trial and error. You can set the ruler to "mm" in order to see distances in millimeters. The cpdf tools also supports different units like inches or points, please refer to the official cpdf documentation. 
+Open your PDF with GIMP and use a bit of trial and error. You can set the ruler to "mm" in order to see distances in millimeters. The cpdf tool also supports different units like inches or points, please refer to the official cpdf documentation. 
 
 ### Usage
+
+single file
 
 ```
 oneNoteTrime ./destination_directory my_file.pdf
 ```
 
-or
+or multi-file flavour:
 
 ```
 oneNoteTrime ./destination_directory *.pdf
