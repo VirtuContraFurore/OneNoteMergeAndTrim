@@ -35,7 +35,6 @@ print_usage(){
 }
 
 convert_file(){
-
 	if [[ ! -f $1 ]]
 	then
 		echo "Error: input file named '$1' does not exist!"
@@ -47,7 +46,7 @@ convert_file(){
 	convert -density $PDF_RENDER_DENSITY $tmp_dir/out.pdf -quality $PDF_RENDER_QUALITY $tmp_dir/out.png
 	echo "Pages converted to PNG"
 	gm convert $tmp_dir/out-*.png -append $tmp_dir/out-merged.png
-	echo "Pages merged to PGN"
+	echo "Pages merged to PNG"
 	gm convert $tmp_dir/out-merged.png "$2/$1"
 	echo "File $1 has been converted"
 	rm -rf $tmp_dir
@@ -64,11 +63,9 @@ if [[ ! -d "$1" ]]
 then
 	echo "Error: destination directory '$1' is not a directory"
 	print_usage
-	exit
 fi
 
 dest="$1"
-
 shift
 
 while [[ ! -z "$1" ]]
